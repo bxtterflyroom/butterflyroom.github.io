@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bxtterflyroom</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      font-family: 'Quicksand', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #354565, #691B22);
+      color: #f4f4f4;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #f4f4f4;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+      color: #ddd;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 25px;
+      background-color: #691B22;
+      color: white;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background-color: #87252d;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #bbb;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    main {
+      animation: fadeIn 1s ease-in;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Welcome to Bxtterflyroom</h1>
+    <p>Projects, games, and stories – all crafted with love 🦋</p>
+    <a href="#projects" class="button">View Projects</a>
+  </main>
+
+  <footer>
+    &copy; 2025 Bxtterflyroom. All rights reserved.
+  </footer>
+</body>
+</html>
